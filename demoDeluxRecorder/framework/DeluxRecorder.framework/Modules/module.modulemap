@@ -1,0 +1,6 @@
+framework module DeluxRecorder {
+  umbrella header "DeluxRecorder.h"
+
+  export *
+  module * { export * }
+}
