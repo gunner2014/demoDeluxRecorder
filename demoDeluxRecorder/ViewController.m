@@ -63,7 +63,8 @@
             player = nil;
         }
     };
-    player.playView.frame = self.imgView.frame;
+    player.playView.frame = self.view.bounds;
+    player.showCloseBtn = YES;
     //    player.loopEnable = YES;
     [self.view addSubview:player.playView];
     [player playerStart];
